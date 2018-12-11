@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/characterpickerview" />
             <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/testapp" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

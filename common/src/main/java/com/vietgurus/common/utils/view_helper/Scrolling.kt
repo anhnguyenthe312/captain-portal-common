@@ -1,4 +1,4 @@
-package com.scs71.cws_android.ui.view_helper
+package com.vietgurus.common.utils.view_helper
 
 import android.text.Spannable
 import android.text.method.ScrollingMovementMethod

@@ -1,1 +1,1 @@
-include ':characterpickerview', ':common'
+include ':characterpickerview', ':common', ':testapp'

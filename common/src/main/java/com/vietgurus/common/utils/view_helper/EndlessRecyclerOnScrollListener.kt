@@ -1,5 +1,4 @@
-package com.scs71.cws_android.ui.view_helper
-
+package com.vietgurus.common.utils.view_helper
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 
@@ -16,7 +15,7 @@ abstract class EndlessRecyclerOnScrollListener(private val mLinearLayoutManager:
 
     private var current_page = 1
 
-    override fun onScrolled(recyclerView: RecyclerView?, dx: Int, dy: Int) {
+    override fun onScrolled(recyclerView: RecyclerView, dx: Int, dy: Int) {
         super.onScrolled(recyclerView, dx, dy)
 
         if (dy < 0) {
