@@ -56,9 +56,6 @@ final class WheelOptions {
         // 选项1
         wv_option1 = (LoopView) view.findViewById(R.id.j_options1);
         wv_option1.setItems(mOptions1Items);// 设置显示数据
-        wv_option1.setDividerColor(Color.parseColor("#F5D67B"));
-        wv_option1.setCenterTextColor(Color.parseColor("#000000"));
-        wv_option1.setOuterTextColor(Color.parseColor("#FF69B4"));
         //设置是否循环播放
         wv_option1.setNotLoop();
 
@@ -132,6 +129,12 @@ final class WheelOptions {
 
         // 初始化时显示的数据
         setCurrentPositions(0, 0, 0);
+    }
+
+    public void setColorPattern(int dividerColor, int centerTextColor, int outerTextColor){
+        wv_option1.setDividerColor(dividerColor);
+        wv_option1.setCenterTextColor(centerTextColor);
+        wv_option1.setOuterTextColor(outerTextColor);
     }
 
     /**

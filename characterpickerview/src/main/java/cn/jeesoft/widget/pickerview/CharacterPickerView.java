@@ -61,6 +61,11 @@ public class CharacterPickerView extends FrameLayout {
         wheelOptions.setPicker(options1Items, options2Items, options3Items);
     }
 
+    public void setColorPattern(int dividerColor, int centerTextColor, int outerTextColor){
+        wheelOptions.setColorPattern(dividerColor, centerTextColor, outerTextColor);
+    }
+
+
     /**
      * 设置选中的item位置
      */
