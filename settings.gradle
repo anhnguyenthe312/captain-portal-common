@@ -1,1 +1,1 @@
-include ':app', ':characterpickerview'
+include ':app', ':characterpickerview', ':testmodule'
